@@ -8,7 +8,7 @@ function ProductCart({ handleClick, listProduct, setListProduct }) {
 
   return (
     <>
-      <div className="border-l border-gray-200 overflow-scroll  py-9 px-5 fixed right-0 top-0  h-[100vh] bg-white">
+      <div className="border-l border-gray-200 overflow-y-scroll  py-9 px-5 fixed right-0 top-0  h-[100vh] bg-white">
         <div className="flex justify-between ">
           <div className="flex gap-3 flex-col ">
             <h2>ProductCart</h2>
