@@ -48,7 +48,7 @@ function ProductCart({ handleClick, listProduct, setListProduct }) {
             <div className="flex text-xl  ">
               <h2>Price : </h2>
               {listProduct.reduce(
-                (acumulador, price) => acumulador + price.price,
+                (acumulador, price) => acumulador + price.price * price.count,
                 0
               )}
               $
